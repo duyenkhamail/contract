@@ -20,20 +20,6 @@ contract Eggs is KaijuFT {
         initFT(_uri, "EGG");
     }
 
-    // function setSwapAndLiquidityAddress(address _swap) external onlyRole(RoleDefine.DEFAULT_ADMIN_ROLE) {
-    //     swapAndLiquidity = ISwapAndLiquidity(_swap);
-    // }
-
-    // function setMainToken(address _mainToken) external  onlyRole(RoleDefine.DEFAULT_ADMIN_ROLE) {
-    //     mainToken = IERC20(_mainToken);
-    // }
-
-    // function getMainTokenAddress() external view returns (address) {
-    //     return address(mainToken);
-    // }
-    // function recoverKaiju(uint256 amount) external  onlyRole(RoleDefine.DEFAULT_ADMIN_ROLE){
-    //     mainToken.transfer(msg.sender, amount);
-    // }
     function buyEggs(
         address account,
         uint256 _eggId,
